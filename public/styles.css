@@ -273,9 +273,19 @@ section h2 {
     gap: 0.5rem;
 }
 
+/* Button Styles - Combined */
 .btn-primary {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.btn-secondary {
+    background: linear-gradient(135deg, #6c757d 0%, #495057 100%);
+    border: none;
+    border-radius: 8px;
 }
 
 .btn-primary:hover {
@@ -283,10 +293,7 @@ section h2 {
     box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
 }
 
-.btn-secondary {
-    background-color: #6c757d;
-    color: white;
-}
+
 
 .btn-secondary:hover {
     background-color: #5a6268;
@@ -889,15 +896,6 @@ html {
         opacity: 1;
     }
 }
-/* Button Improvements - Version 1 */
-.btn-primary {
-    background-color: #667eea;
-    border-radius: 8px;
-    font-weight: 600;
-}
+/* Button Colors - Version 2 */
 
-.btn-secondary {
-    background-color: #6c757d;
-    border-radius: 8px;
-}
 }
